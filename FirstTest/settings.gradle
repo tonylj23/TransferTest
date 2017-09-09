@@ -1,0 +1,1 @@
+include ':app', ':downloaderLib', ':playerview', ':RecyclerViewHelper', ':recyclerviewtest', ':mydagger2test', ':mysockettest', ':mysocketservicetest', ':mylinktoserver', ':mytransform'

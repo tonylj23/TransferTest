@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/file_num"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        style="@style/style_common_bottom_text_view"
+        android:background="@drawable/selector_next_btn"
+        />
+    <Button
+        android:id="@+id/file_next"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        style="@style/style_common_bottom_text_view"
+        android:text="下一步"
+        android:background="@drawable/selector_next_btn"
+        />
+</LinearLayout>
